@@ -1,10 +1,5 @@
-/* eslint-disable no-undef */
-"use strict";
-
-const path = require("path");
-
-module.exports = module.exports = {
-  entry: ["@babel/polyfill", "./app/Main.js"],
+module.exports = {
+  entry: ["@babel/polyfill", "./app/main.js"],
   mode: "development",
   output: {
     path: __dirname,
